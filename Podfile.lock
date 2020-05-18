@@ -1,0 +1,20 @@
+PODS:
+  - CucumberSwift (2.2.35):
+    - CucumberSwift/snippets (= 2.2.35)
+    - CucumberSwift/syntax (= 2.2.35)
+  - CucumberSwift/snippets (2.2.35)
+  - CucumberSwift/syntax (2.2.35)
+
+DEPENDENCIES:
+  - CucumberSwift
+
+SPEC REPOS:
+  trunk:
+    - CucumberSwift
+
+SPEC CHECKSUMS:
+  CucumberSwift: 9f3c5b6fc15f5ce2de991d44a00c4206731e5f78
+
+PODFILE CHECKSUM: 223bc0107eb094eae9846b94b3f72070be8ef894
+
+COCOAPODS: 1.8.4
