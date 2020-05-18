@@ -6,29 +6,30 @@
 //  Copyright © 2020 Christian Stangier. All rights reserved.
 //
 
+import CucumberSwift
+import Foundation
 import XCTest
-@testable import CucumberSwiftExample
 
-class CucumberSwiftExampleTests: XCTestCase {
+// @testable import CucumberSwiftExample
+class CucumberSwiftExampleTests: XCTest {}
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+extension Cucumber: StepImplementation {
+    public var bundle: Bundle {
+        return Bundle(for: CucumberSwiftExampleTests.self)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    public func setupSteps() {
+        // Step definitions
+        Given("I have a feature") { matches, _ in
+            print(matches[0])
+        }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+        When("I run it") { matches, _ in
+            print(matches[0])
+        }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+        Then("it should be executed") { matches, _ in
+            print(matches[0])
         }
     }
-
 }

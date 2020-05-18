@@ -14,6 +14,7 @@
 		832663BF2472924700616D66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832663BE2472924700616D66 /* Preview Assets.xcassets */; };
 		832663C22472924700616D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832663C02472924700616D66 /* Main.storyboard */; };
 		832663CE2472924700616D66 /* CucumberSwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832663CD2472924700616D66 /* CucumberSwiftExampleTests.swift */; };
+		832663DA2472AB7100616D66 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 8344AA302472940E0078F014 /* Features */; };
 		F9BA4CF4086370A938141A58 /* Pods_CucumberSwiftExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC49A531FC645EB937B654C4 /* Pods_CucumberSwiftExampleTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		832663C92472924700616D66 /* CucumberSwiftExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CucumberSwiftExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		832663CD2472924700616D66 /* CucumberSwiftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberSwiftExampleTests.swift; sourceTree = "<group>"; };
 		832663CF2472924700616D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8344AA302472940E0078F014 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
 		91F3449885B1E69443A4CF54 /* Pods-CucumberSwiftExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CucumberSwiftExampleTests.release.xcconfig"; path = "Target Support Files/Pods-CucumberSwiftExampleTests/Pods-CucumberSwiftExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		E3E917F8B4F140037C0AF032 /* Pods_CucumberSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CucumberSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC49A531FC645EB937B654C4 /* Pods_CucumberSwiftExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CucumberSwiftExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 		832663CC2472924700616D66 /* CucumberSwiftExampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				8344AA302472940E0078F014 /* Features */,
 				832663CD2472924700616D66 /* CucumberSwiftExampleTests.swift */,
 				832663CF2472924700616D66 /* Info.plist */,
 			);
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				832663DA2472AB7100616D66 /* Features in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CucumberSwiftExample/CucumberSwiftExample.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"CucumberSwiftExample/Preview Content\"";
@@ -485,7 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CucumberSwiftExample/CucumberSwiftExample.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"CucumberSwiftExample/Preview Content\"";
